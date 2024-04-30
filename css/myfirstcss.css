@@ -80,10 +80,3 @@ img {
     float: left;
     width: 25%;
 }
-
-/*Media */
-@media screen and (max-width: 720px) {
-		p {
-          font-size: 1.5rem;
-        }
-      }
