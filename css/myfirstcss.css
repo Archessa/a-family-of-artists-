@@ -21,7 +21,7 @@ div.desc {
 
 /* Body styles */
 body {
-    font-family: 'Arial Rounded MT Bold', 'Lucida Calligraphy', serif;
+    font-family: 'Arial Rounded MT Bold', 'Lucida Calligraphy', 'serif';
     font-size: 50px;
     color: black;
     text-align: center;
