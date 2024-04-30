@@ -21,11 +21,16 @@ div.desc {
 
 /* Body styles */
 body {
-    background-color: #bf00ff;
-    background-repeat: no repeat;
-    background-size: auto;
+    font-family: 'Arial Rounded MT Bold', 'Lucida Calligraphy', serif;
+    font-size: 50px;
+    color: black;
     text-align: center;
- 
+	background-color: #bf00ff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    top: 30px;
 }
 
 /* Heading styles */
@@ -36,19 +41,15 @@ h1 {
 }
 
 h2, h3, h4 {
-    font-family: 'Arial Rounded MT Bold', 'Lucida Calligraphy', serif;
-    font-size: 50px;
     color: black;
-    text-align: center;
     position: relative;
     top: 30px;
 }
 
 /* Paragraph styles */
 p {
-    font-family: 'Arial Rounded MT Bold', 'Lucida Calligraphy', serif;
+    font-family: 'Lucida Bright', 'Palatino Linotype', sans-serif;
     font-size: 20px;
-    color: black;
     text-align: center;
 }
 
@@ -82,7 +83,7 @@ img {
     width: 25%;
 }
 
-/* Media */
+/*Media */
 @media screen and (max-width: 720px) {
 		p {
           font-size: 1.5rem;
