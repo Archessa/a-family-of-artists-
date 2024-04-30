@@ -22,8 +22,7 @@ div.desc {
 /* Body styles */
 body {
     background-color: #bf00ff;
-    background-repeat: no-repeat;
-    background-size: 100%, 100%;
+    background-size: auto;
  
 }
 
@@ -39,7 +38,6 @@ h2, h3, h4 {
     font-size: 50px;
     color: black;
     text-align: center;
-    color: black;
     position: relative;
     top: 30px;
 }
@@ -47,11 +45,8 @@ h2, h3, h4 {
 /* Paragraph styles */
 p {
     font-family: 'Arial Rounded MT Bold', 'Lucida Calligraphy', serif;
-    font-size: 50px;
-    color: black;
-    text-align: center;
-    font-family: 'Lucida Bright', 'Palatino Linotype', sans-serif;
     font-size: 20px;
+    color: black;
     text-align: center;
 }
 
