@@ -27,8 +27,7 @@ body {
     text-align: center;
 	background-color: #bf00ff;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-size: auto;
     position: relative;
     top: 30px;
 }
