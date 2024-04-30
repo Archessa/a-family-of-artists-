@@ -76,11 +76,7 @@ img {
 }
 
 responsive {
-  padding: 0 6px;
+  padding: 6px;
   float: left;
-  width: 24.99999%;
-}
-
-grad {
-	background: linear-gradient(to bottom right, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%);
+  width: 25%;
 }
