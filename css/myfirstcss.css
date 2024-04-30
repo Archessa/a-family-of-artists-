@@ -22,6 +22,7 @@ div.desc {
 /* Body styles */
 body {
     background-color: #bf00ff;
+    background-repeat: no repeat;
     background-size: auto;
  
 }
