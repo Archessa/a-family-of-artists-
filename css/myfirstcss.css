@@ -21,11 +21,7 @@ div.desc {
 
 /* Body styles */
 body {
-    font-family: 'Arial Rounded MT Bold', 'Lucida Calligraphy', serif;
-    font-size: 50px;
-    color: black;
-    text-align: center;
-	background-color: #bf00ff;
+    background-color: #bf00ff;
     background-repeat: no-repeat;
     background-size: cover;
  
@@ -39,6 +35,10 @@ h1 {
 }
 
 h2, h3, h4 {
+    font-family: 'Arial Rounded MT Bold', 'Lucida Calligraphy', serif;
+    font-size: 50px;
+    color: black;
+    text-align: center;
     color: black;
     position: relative;
     top: 30px;
@@ -46,6 +46,10 @@ h2, h3, h4 {
 
 /* Paragraph styles */
 p {
+    font-family: 'Arial Rounded MT Bold', 'Lucida Calligraphy', serif;
+    font-size: 50px;
+    color: black;
+    text-align: center;
     font-family: 'Lucida Bright', 'Palatino Linotype', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -80,3 +84,10 @@ img {
     float: left;
     width: 25%;
 }
+
+/* Media */
+@media screen and (max-width: 720px) {
+		p {
+          font-size: 1.5rem;
+        }
+      }
