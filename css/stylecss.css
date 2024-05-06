@@ -1,0 +1,76 @@
+/* Gallery styles */
+
+div.gallery {
+			margin: 80px;
+			float: left;
+			width: 180px;
+}
+
+		div.gallery:hover {
+}
+
+		div.gallery img {
+			width: 100%;
+			height: auto;
+}
+
+		div.desc {
+			padding: 20px;
+			padding: 20px;
+			text-align: center;
+
+/* Heading styles */
+h1, h2 {
+    color: black;
+    position: relative;
+    top: 30px;
+}
+
+/* Paragraph styles */
+p {
+    font-family: 'Lucida Bright', 'Palatino Linotype', 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Body styles */
+body {
+	background-color: purple;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Arial Rounded MT Bold', 'Lucida Calligraphy', 'serif';
+    font-size: 50px;
+    color: black;
+    text-align: center;
+	position: relative;
+	top: 30px;
+}
+
+/* Navigation link styles */
+nav ul li a {
+    font-size: 50px;
+    color: black;
+    margin: 500px;
+    padding: 300px;
+    border-width: 100px;
+    text-decoration: none;
+	position: relative;
+	top: 50px;
+}
+
+/* Navigation link hover styles */
+nav ul li a:hover {
+    color: blue;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+responsive {
+  padding: 6px;
+  float: left;
+  width: 25%;
+}
